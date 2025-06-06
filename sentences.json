@@ -1,0 +1,5700 @@
+[
+  {
+    "StoryID": "t001",
+    "SentenceID": "s001",
+    "English": "In the days of Herod, the king of Judea, there was in Nazareth, a small city of Galilee, a certain most holy virgin.",
+    "Greek": "Ἐν ταῖς ἡμέραις Ἡρώδου, τοῦ βασιλέως τῆς Ἰουδαίας, ἦν ἐν Ναζαρέτ, μικρᾷ πόλει τῆς Γαλιλαίας, παρθένος τις ἁγιωτάτη.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s001.mp3"
+  },
+  {
+    "StoryID": "t001",
+    "SentenceID": "s002",
+    "English": "This virgin was betrothed to a good and just man, whose name was Joseph, and the name of the virgin was Mary.",
+    "Greek": "Αὕτη ἡ παρθένος ἐμνηστεύθη ἀνδρὶ ἀγαθῷ καὶ δικαίῳ, ᾧ τὸ ὄνομα Ἰωσήφ, καὶ τὸ ὄνομα τῆς παρθένου ἦν Μαρία.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s002.mp3"
+  },
+  {
+    "StoryID": "t001",
+    "SentenceID": "s003",
+    "English": "Both were from the house of David.",
+    "Greek": "Ἀμφότεροι δὲ ἦσαν ἐξ οἴκου τοῦ Δαβίδ.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s003.mp3"
+  },
+  {
+    "StoryID": "t002",
+    "SentenceID": "s004",
+    "English": "In the same time there was in Judea a certain priest, named Zacharias, and the name of his wife was Elizabeth.",
+    "Greek": "Ἐν τῷ αὐτῷ χρόνῳ ἦν ἐν Ἰουδαίᾳ ἱερεύς τις, ὀνόματι Ζαχαρίας, καὶ τὸ ὄνομα τῆς γυναικός αὐτοῦ ἦν Ἐλισάβετ.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s004.mp3"
+  },
+  {
+    "StoryID": "t002",
+    "SentenceID": "s005",
+    "English": "Both were righteous before God, walking in all the commandments and ordinances of the Lord.",
+    "Greek": "Ἀμφότεροι ἦσαν δίκαιοι ἐνώπιον τοῦ Θεοῦ, πορευόμενοι ἐν πάσαις ταῖς ἐντολαῖς καὶ δικαιώμασι τοῦ Κυρίου.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s005.mp3"
+  },
+  {
+    "StoryID": "t002",
+    "SentenceID": "s006",
+    "English": "They were already aged, but they had no child; this they considered a great misfortune.",
+    "Greek": "Ἦσαν ἤδη γεραιοί, ἀλλ᾽ οὐκ ἦν αὐτοῖς τέκνον· Τοῦτο ἐνόμιζον συμφορὰν μεγάλην.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s006.mp3"
+  },
+  {
+    "StoryID": "t003",
+    "SentenceID": "s007",
+    "English": "And it happened, when Zacharias was serving as priest in the temple, an angel of the Lord appeared to him and said to him:",
+    "Greek": "Καὶ ἐγένετο, ὅτε ἱεράτευεν ὁ Ζαχαρίας ἐν τῷ ναῷ, ὤφθη αὐτῷ ἄγγελος τοῦ Κυρίου καὶ εἶπε πρὸς αὐτόν·",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s007.mp3"
+  },
+  {
+    "StoryID": "t003",
+    "SentenceID": "s008",
+    "English": "Do not fear, Zacharias, your prayer has been heard; your wife Elizabeth will bear you a son, and you will call his name John.",
+    "Greek": "Μὴ φοβοῦ, Ζαχαρία, εἰςηκούσθη ἡ δέησίς σου· ἡ γυνή σου Ἐλισάβετ γεννήσει σοι υἱόν, καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἰωάννην.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s008.mp3"
+  },
+  {
+    "StoryID": "t003",
+    "SentenceID": "s009",
+    "English": "He will be great before the Lord and will turn many of the sons of Israel to the Lord their God.",
+    "Greek": "Ἔσται μέγας ἐνώπιον τοῦ Κυρίου καὶ πολλοὺς τῶν υἱῶν Ἰσραὴλ ἐπιστρέψει ἐπὶ Κύριον τὸν Θεὸν αὐτῶν.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s009.mp3"
+  },
+  {
+    "StoryID": "t003",
+    "SentenceID": "s010",
+    "English": "But with Zacharias disbelieving, the angel said to him: Because you did not believe my words, you will be silent and not speak until the day when all these things happen.",
+    "Greek": "Τοῦ δὲ Ζαχαρίου ἀπιστοῦντος, εἶπεν ὁ ἄγγελος πρὸς αὐτόν· Ὅτι οὐκ ἐπίστευσας τοῖς λόγοις μου, ἔσῃ σιωπῶν καὶ μὴ λαλήσεις μεχρὶ τῆς ἡμέρας ᾗ πάντα ταῦτα γενήσεται.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s010.mp3"
+  },
+  {
+    "StoryID": "t004",
+    "SentenceID": "s011",
+    "English": "And after six months the angel Gabriel was sent by God to the virgin Mary in Nazareth.",
+    "Greek": "Καὶ μετὰ ἓξ μῆνας ἀπεστάλη ὁ ἄγγελος Γαβριὴλ ὑπὸ τοῦ Θεοῦ πρὸς τὴν παρθένον Μαρίαν εἰς Ναζαρέτ.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s011.mp3"
+  },
+  {
+    "StoryID": "t004",
+    "SentenceID": "s012",
+    "English": "And entering, he said to her: Greetings, favored one; the Lord is with you, blessed are you among women.",
+    "Greek": "Καὶ εἰςελθὼν εἶπε πρὸς αὐτήν· Χαῖρε, κεχαριτωμένη· ὁ Κύριος μετὰ σοῦ, εὐλογημένη σὺ ἐν γυναιξίν,",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s012.mp3"
+  },
+  {
+    "StoryID": "t004",
+    "SentenceID": "s013",
+    "English": "For you have found favor with God; you will conceive in your womb and bear a son, and you will call his name Jesus.",
+    "Greek": "Εὗρες γὰρ χάριν παρὰ τῷ Θεῷ· συλλήψῃ ἐν γαστρὶ καὶ τέξῃ υἱόν, καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἰησοῦν.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s013.mp3"
+  },
+  {
+    "StoryID": "t004",
+    "SentenceID": "s014",
+    "English": "He will be great and will be called Son of the Most High; and the Lord God will give him the throne of David, his father.",
+    "Greek": "Οὗτος ἔσται μέγας καὶ υἱὸς τοῦ Ὑψίστου κληθήσεται· καὶ δώσει αὐτῷ Κύριος ὁ Θεὸς τὸν θρόνον Δαβίδ, τοῦ πατρὸς αὐτοῦ.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s014.mp3"
+  },
+  {
+    "StoryID": "t005",
+    "SentenceID": "s015",
+    "English": "But Mary was troubled and said to the angel: How will this be, since I know no man?",
+    "Greek": "Ἡ δὲ Μαρία ταράσσεται καὶ λέγει πρὸς τὸν ἄγγελον· Πῶς ἔσται τοῦτο, ἐπεὶ ἄνδρα οὐ γιγνώσκω;",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s015.mp3"
+  },
+  {
+    "StoryID": "t005",
+    "SentenceID": "s016",
+    "English": "The angel answered her: The Holy Spirit will come upon you, and the power of the Most High will overshadow you; therefore, your child will be called holy, Son of God. And behold, Elizabeth, your relative, she too will bear a son in her old age, for nothing is impossible with God.",
+    "Greek": "Ὁ ἄγγελος ἀποκρίνεται αὐτῇ· Πνεῦμα Ἅγιον ἐπελεύσεται ἐπὶ σέ, καὶ δύναμις τοῦ Ὑψίστου ἐπισκιάσει σοι· διὸ καὶ τὸ τέκνον σου ἅγιον κληθήσεται υἱὸς Θεοῦ. Καὶ ἰδοὺ Ἐλισάβετ, ἡ συγγενής σου, καὶ αὐτὴ λήψεται υἱὸν ἐν τῷ γήρᾳ αὐτῆς, ὅτι οὐδέν ἐστιν ἀδύνατον παρὰ τῷ Θεῷ.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s016.mp3"
+  },
+  {
+    "StoryID": "t005",
+    "SentenceID": "s017",
+    "English": "Then Mary said: Behold, the servant of the Lord, may it be to me according to your word.",
+    "Greek": "Τότε ἡ Μαρία εἶπεν· Ἰδοὺ ἡ δούλη τοῦ Κυρίου, γένοιτό μοι κατὰ τὸ ῥῆμά σου.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s017.mp3"
+  },
+  {
+    "StoryID": "t005",
+    "SentenceID": "s018",
+    "English": "And the angel departed from her.",
+    "Greek": "Καὶ ἀπῆλθεν ἀπ’ αὐτῆς ὁ ἄγγελος.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s018.mp3"
+  },
+  {
+    "StoryID": "t006",
+    "SentenceID": "s019",
+    "English": "After this, Mary went with haste to her relative Elizabeth and greeted her.",
+    "Greek": "Μετὰ ταῦτα Μαρία ἐπορεύθη μετὰ σπουδῆς πρὸς τὴν συγγενῆ αὐτῆς Ἐλισάβετ καὶ ἠσπάσατο αὐτήν.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s019.mp3"
+  },
+  {
+    "StoryID": "t006",
+    "SentenceID": "s020",
+    "English": "But Elizabeth, when she heard the greeting of Mary, was filled with the Holy Spirit and exclaimed with a loud voice and said: Blessed are you among women, and blessed is the fruit of your womb.",
+    "Greek": "Ἡ δὲ Ἐλισάβετ, ὡς ἤκουσε τὸν ἀσπασμὸν τῆς Μαρίας, ἐπλήσθη Πνεύματος Ἁγίου καὶ ἀνεφώνησε φωνῇ μεγάλῃ καὶ εἶπεν· Εὐλογημένη σὺ ἐν γυναιξὶ καὶ εὐλογημένος ὁ καρπὸς τῆς κοιλίας σου.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s020.mp3"
+  },
+  {
+    "StoryID": "t006",
+    "SentenceID": "s021",
+    "English": "And Mary said: My soul magnifies the Lord, and my spirit rejoices in God my Savior; for he has looked upon the lowliness of his servant; behold, from now on all generations will call me blessed.",
+    "Greek": "Καὶ εἶπε Μαρία· Μεγαλύνει ἡ ψυχή μου τὸν Κύριον, καὶ ἠγαλλίασε τὸ πνεῦμά μου ἐπὶ τῷ Θεῷ τῷ σωτῆρί μου· ὅτι ἐπέβλεψεν ἐπὶ τὴν ταπείνωσιν τῆς δούλης αὐτοῦ· ἰδοὺ γὰρ ἀπὸ τοῦ νῦν μακαρίσουσί με πᾶσαι αἱ γενεαί.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s021.mp3"
+  },
+  {
+    "StoryID": "t006",
+    "SentenceID": "s022",
+    "English": "But Mary remained with her for three months and returned home to Nazareth.",
+    "Greek": "Ἔμεινε δὲ Μαρία ἔτι τρεῖς μῆνας σὺν αὐτῇ καὶ ὑπέστρεψεν οἴκαδ᾽ εἰς Ναζαρέτ.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s022.mp3"
+  },
+  {
+    "StoryID": "t007",
+    "SentenceID": "s023",
+    "English": "And for Elizabeth, the time was fulfilled, and she gave birth to a son.",
+    "Greek": "Τῇ δὲ Ἐλισάβετ ἐπλήσθη ὁ χρόνος καὶ ἐγέννησεν υἱόν.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s023.mp3"
+  },
+  {
+    "StoryID": "t007",
+    "SentenceID": "s024",
+    "English": "The neighbors and her relatives, hearing this, rejoiced with her and wanted to call the child after his father’s name, Zacharias.",
+    "Greek": "Οἱ περίοικοι καὶ οἱ συγγενεῖς αὐτῆς ἀκούσαντες συνέχαιρον αὐτῇ καὶ ἔθελον καλεῖν τὸ παιδίον κατὰ τὸ τοῦ πατρὸς ὄνομα Ζαχαρίαν.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s024.mp3"
+  },
+  {
+    "StoryID": "t007",
+    "SentenceID": "s025",
+    "English": "But Zacharias, the father, wrote on a tablet, saying: John is his name; and immediately his tongue was loosed, and he spoke, blessing God.",
+    "Greek": "Ζαχαρίας δὲ ὁ πατὴρ ἔγραψεν εἰς πινακίδιον λέγων· Ἰωάννης ἐστὶ τὸ ὄνομα αὐτοῦ· καὶ παραχρῆμα ἀνεῴχθη ἡ γλῶσσα αὐτοῦ, καὶ ἐλάλει εὐλογῶν τὸν Θεόν.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s025.mp3"
+  },
+  {
+    "StoryID": "t007",
+    "SentenceID": "s026",
+    "English": "And being filled with the Holy Spirit, he prophesied, saying: Blessed be the Lord, the God of Israel, for he has visited and made redemption for his people.",
+    "Greek": "Καὶ πλησθεὶς Πνεύματος Ἁγίου ἐπροφήτευσε λέγων· Εὐλογητὸς Κύριος, ὁ Θεὸς τοῦ Ἰσραήλ, ὅτι ἐπεσκέψατο, καὶ ἐποίησε λύτρωσιν τῷ λαῷ αὐτοῦ.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s026.mp3"
+  },
+  {
+    "StoryID": "t008",
+    "SentenceID": "s027",
+    "English": "When Mary came again to Nazareth, the angel of the Lord appeared to Joseph in a dream, saying: Joseph, son of David, do not fear to take Mary, your wife; for that which is born in her is from the Holy Spirit.",
+    "Greek": "Ὅτε ἡ Μαρία πάλιν ἦλθεν εἰς Ναζαρέτ, ὁ ἄγγελος τοῦ Κυρίου κατ᾽ ὄναρ ἐφάνη τῷ Ἰωσὴφ λέγων· Ἰωσήφ, υἱὸς Δαβίδ, μὴ φοβηθῇς παραλαβεῖν Μαρίαν, τὴν γυναῖκά σου· τὸ γὰρ ἐν αὐτῇ γεννηθὲν ἐκ πνεύματός ἐστιν Ἁγίου.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s027.mp3"
+  },
+  {
+    "StoryID": "t008",
+    "SentenceID": "s028",
+    "English": "She will bear a son, and you will call his name Jesus; for he will save his people from their sins.",
+    "Greek": "Γεννήσει δὲ υἱόν, καὶ καλέσεις τὸ ὄνομα αὐτοῦ Ἰησοῦν· οὗτος γὰρ σώσει τὸν λαὸν αὐτοῦ ἀπὸ τῶν ἁμαρτιῶν αὐτῶν.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s028.mp3"
+  },
+  {
+    "StoryID": "t008",
+    "SentenceID": "s029",
+    "English": "And rising from sleep, Joseph did as the angel of the Lord commanded him and took Mary to himself.",
+    "Greek": "Ἐγερθεὶς δὲ ὁ Ἰωσὴφ ἀπὸ τοῦ ὕπνου, ἐποίησεν ὡς προσέταξεν αὐτῷ ὁ ἄγγελος τοῦ Κυρίου καὶ παρέλαβε τὴν Μαρίαν πρὸς ἑαυτόν.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s029.mp3"
+  },
+  {
+    "StoryID": "t009",
+    "SentenceID": "s030",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t009",
+    "SentenceID": "s031",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t009",
+    "SentenceID": "s032",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t010",
+    "SentenceID": "s033",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t010",
+    "SentenceID": "s034",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t010",
+    "SentenceID": "s035",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t010",
+    "SentenceID": "s036",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t011",
+    "SentenceID": "s037",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t011",
+    "SentenceID": "s038",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t011",
+    "SentenceID": "s039",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t011",
+    "SentenceID": "s040",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t012",
+    "SentenceID": "s041",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t012",
+    "SentenceID": "s042",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t012",
+    "SentenceID": "s043",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t012",
+    "SentenceID": "s044",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t013",
+    "SentenceID": "s045",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t013",
+    "SentenceID": "s046",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t013",
+    "SentenceID": "s047",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t013",
+    "SentenceID": "s048",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t014",
+    "SentenceID": "s049",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t014",
+    "SentenceID": "s050",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t014",
+    "SentenceID": "s051",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t014",
+    "SentenceID": "s052",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t015",
+    "SentenceID": "s053",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t015",
+    "SentenceID": "s054",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t015",
+    "SentenceID": "s055",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t016",
+    "SentenceID": "s056",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t016",
+    "SentenceID": "s057",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t017",
+    "SentenceID": "s058",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t017",
+    "SentenceID": "s059",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t017",
+    "SentenceID": "s060",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t017",
+    "SentenceID": "s061",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t018",
+    "SentenceID": "s062",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t018",
+    "SentenceID": "s063",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t018",
+    "SentenceID": "s064",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t018",
+    "SentenceID": "s065",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t018",
+    "SentenceID": "s066",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t018",
+    "SentenceID": "s067",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t019",
+    "SentenceID": "s068",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t019",
+    "SentenceID": "s069",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t019",
+    "SentenceID": "s070",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t019",
+    "SentenceID": "s071",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t020",
+    "SentenceID": "s072",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t020",
+    "SentenceID": "s073",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t020",
+    "SentenceID": "s074",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t021",
+    "SentenceID": "s075",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t021",
+    "SentenceID": "s076",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t021",
+    "SentenceID": "s077",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t021",
+    "SentenceID": "s078",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t022",
+    "SentenceID": "s079",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t022",
+    "SentenceID": "s080",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t022",
+    "SentenceID": "s081",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t022",
+    "SentenceID": "s082",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t023",
+    "SentenceID": "s083",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t023",
+    "SentenceID": "s084",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t023",
+    "SentenceID": "s085",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t023",
+    "SentenceID": "s086",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t024",
+    "SentenceID": "s087",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t024",
+    "SentenceID": "s088",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t024",
+    "SentenceID": "s089",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t025",
+    "SentenceID": "s090",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t025",
+    "SentenceID": "s091",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t025",
+    "SentenceID": "s092",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t025",
+    "SentenceID": "s093",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t026",
+    "SentenceID": "s094",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t026",
+    "SentenceID": "s095",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t026",
+    "SentenceID": "s096",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t026",
+    "SentenceID": "s097",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t027",
+    "SentenceID": "s098",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t027",
+    "SentenceID": "s099",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t027",
+    "SentenceID": "s100",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t027",
+    "SentenceID": "s101",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t027",
+    "SentenceID": "s102",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t028",
+    "SentenceID": "s103",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t028",
+    "SentenceID": "s104",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t028",
+    "SentenceID": "s105",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t028",
+    "SentenceID": "s106",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t029",
+    "SentenceID": "s107",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t029",
+    "SentenceID": "s108",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t029",
+    "SentenceID": "s109",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t029",
+    "SentenceID": "s110",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t030",
+    "SentenceID": "s111",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t030",
+    "SentenceID": "s112",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t030",
+    "SentenceID": "s113",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t030",
+    "SentenceID": "s114",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t031",
+    "SentenceID": "s115",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t031",
+    "SentenceID": "s116",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t031",
+    "SentenceID": "s117",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t031",
+    "SentenceID": "s118",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t032",
+    "SentenceID": "s119",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t032",
+    "SentenceID": "s120",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t032",
+    "SentenceID": "s121",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t032",
+    "SentenceID": "s122",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t033",
+    "SentenceID": "s123",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t033",
+    "SentenceID": "s124",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t033",
+    "SentenceID": "s125",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t033",
+    "SentenceID": "s126",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t033",
+    "SentenceID": "s127",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t034",
+    "SentenceID": "s128",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t034",
+    "SentenceID": "s129",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t034",
+    "SentenceID": "s130",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t034",
+    "SentenceID": "s131",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t035",
+    "SentenceID": "s132",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t035",
+    "SentenceID": "s133",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t035",
+    "SentenceID": "s134",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t035",
+    "SentenceID": "s135",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t036",
+    "SentenceID": "s136",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t036",
+    "SentenceID": "s137",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t036",
+    "SentenceID": "s138",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t036",
+    "SentenceID": "s139",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t037",
+    "SentenceID": "s140",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t037",
+    "SentenceID": "s141",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t037",
+    "SentenceID": "s142",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t037",
+    "SentenceID": "s143",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t037",
+    "SentenceID": "s144",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t037",
+    "SentenceID": "s145",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t037",
+    "SentenceID": "s146",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t038",
+    "SentenceID": "s147",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t038",
+    "SentenceID": "s148",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t038",
+    "SentenceID": "s149",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t038",
+    "SentenceID": "s150",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t039",
+    "SentenceID": "s151",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t039",
+    "SentenceID": "s152",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t039",
+    "SentenceID": "s153",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t039",
+    "SentenceID": "s154",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t039",
+    "SentenceID": "s155",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t040",
+    "SentenceID": "s156",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t040",
+    "SentenceID": "s157",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t040",
+    "SentenceID": "s158",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t040",
+    "SentenceID": "s159",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t041",
+    "SentenceID": "s160",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t041",
+    "SentenceID": "s161",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t041",
+    "SentenceID": "s162",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t041",
+    "SentenceID": "s163",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t042",
+    "SentenceID": "s164",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t042",
+    "SentenceID": "s165",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t042",
+    "SentenceID": "s166",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t042",
+    "SentenceID": "s167",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t043",
+    "SentenceID": "s168",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t043",
+    "SentenceID": "s169",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t044",
+    "SentenceID": "s170",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t044",
+    "SentenceID": "s171",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t044",
+    "SentenceID": "s172",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t044",
+    "SentenceID": "s173",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t044",
+    "SentenceID": "s174",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t044",
+    "SentenceID": "s175",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t044",
+    "SentenceID": "s176",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t044",
+    "SentenceID": "s177",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t044",
+    "SentenceID": "s178",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t045",
+    "SentenceID": "s179",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t045",
+    "SentenceID": "s180",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t045",
+    "SentenceID": "s181",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t045",
+    "SentenceID": "s182",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t046",
+    "SentenceID": "s183",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t046",
+    "SentenceID": "s184",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t046",
+    "SentenceID": "s185",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t046",
+    "SentenceID": "s186",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t047",
+    "SentenceID": "s187",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t047",
+    "SentenceID": "s188",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t047",
+    "SentenceID": "s189",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t048",
+    "SentenceID": "s190",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t048",
+    "SentenceID": "s191",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t048",
+    "SentenceID": "s192",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t048",
+    "SentenceID": "s193",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t049",
+    "SentenceID": "s194",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t049",
+    "SentenceID": "s195",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t049",
+    "SentenceID": "s196",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t049",
+    "SentenceID": "s197",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t050",
+    "SentenceID": "s198",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t050",
+    "SentenceID": "s199",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t050",
+    "SentenceID": "s200",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t051",
+    "SentenceID": "s201",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t051",
+    "SentenceID": "s202",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t051",
+    "SentenceID": "s203",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t052",
+    "SentenceID": "s204",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t052",
+    "SentenceID": "s205",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t052",
+    "SentenceID": "s206",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t052",
+    "SentenceID": "s207",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t052",
+    "SentenceID": "s208",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t053",
+    "SentenceID": "s209",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t053",
+    "SentenceID": "s210",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t053",
+    "SentenceID": "s211",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t053",
+    "SentenceID": "s212",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t054",
+    "SentenceID": "s213",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t054",
+    "SentenceID": "s214",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t054",
+    "SentenceID": "s215",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t055",
+    "SentenceID": "s216",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t055",
+    "SentenceID": "s217",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t055",
+    "SentenceID": "s218",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t056",
+    "SentenceID": "s219",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t056",
+    "SentenceID": "s220",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t056",
+    "SentenceID": "s221",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t056",
+    "SentenceID": "s222",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t057",
+    "SentenceID": "s223",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t057",
+    "SentenceID": "s224",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t057",
+    "SentenceID": "s225",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t057",
+    "SentenceID": "s226",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t057",
+    "SentenceID": "s227",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t057",
+    "SentenceID": "s228",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t058",
+    "SentenceID": "s229",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t059",
+    "SentenceID": "s230",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t059",
+    "SentenceID": "s231",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t060",
+    "SentenceID": "s232",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t060",
+    "SentenceID": "s233",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t061",
+    "SentenceID": "s234",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t062",
+    "SentenceID": "s235",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t063",
+    "SentenceID": "s236",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t064",
+    "SentenceID": "s237",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t065",
+    "SentenceID": "s238",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t066",
+    "SentenceID": "s239",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t066",
+    "SentenceID": "s240",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t066",
+    "SentenceID": "s241",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t066",
+    "SentenceID": "s242",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t066",
+    "SentenceID": "s243",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t066",
+    "SentenceID": "s244",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t067",
+    "SentenceID": "s245",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t067",
+    "SentenceID": "s246",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t067",
+    "SentenceID": "s247",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t067",
+    "SentenceID": "s248",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t068",
+    "SentenceID": "s249",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t068",
+    "SentenceID": "s250",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t068",
+    "SentenceID": "s251",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t068",
+    "SentenceID": "s252",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t068",
+    "SentenceID": "s253",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t069",
+    "SentenceID": "s254",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t069",
+    "SentenceID": "s255",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t069",
+    "SentenceID": "s256",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t070",
+    "SentenceID": "s257",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t070",
+    "SentenceID": "s258",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t070",
+    "SentenceID": "s259",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t070",
+    "SentenceID": "s260",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t071",
+    "SentenceID": "s261",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t071",
+    "SentenceID": "s262",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t071",
+    "SentenceID": "s263",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t071",
+    "SentenceID": "s264",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t071",
+    "SentenceID": "s265",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t072",
+    "SentenceID": "s266",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t072",
+    "SentenceID": "s267",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t072",
+    "SentenceID": "s268",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t072",
+    "SentenceID": "s269",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t073",
+    "SentenceID": "s270",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t073",
+    "SentenceID": "s271",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t073",
+    "SentenceID": "s272",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t074",
+    "SentenceID": "s273",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t074",
+    "SentenceID": "s274",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t074",
+    "SentenceID": "s275",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t074",
+    "SentenceID": "s276",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t075",
+    "SentenceID": "s277",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t075",
+    "SentenceID": "s278",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t075",
+    "SentenceID": "s279",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t075",
+    "SentenceID": "s280",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t076",
+    "SentenceID": "s281",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t076",
+    "SentenceID": "s282",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t076",
+    "SentenceID": "s283",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t077",
+    "SentenceID": "s284",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t077",
+    "SentenceID": "s285",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t077",
+    "SentenceID": "s286",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t077",
+    "SentenceID": "s287",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t077",
+    "SentenceID": "s288",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t078",
+    "SentenceID": "s289",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t078",
+    "SentenceID": "s290",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t078",
+    "SentenceID": "s291",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t078",
+    "SentenceID": "s292",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t079",
+    "SentenceID": "s293",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t079",
+    "SentenceID": "s294",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t079",
+    "SentenceID": "s295",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t079",
+    "SentenceID": "s296",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t079",
+    "SentenceID": "s297",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t079",
+    "SentenceID": "s298",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t080",
+    "SentenceID": "s299",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t080",
+    "SentenceID": "s300",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t080",
+    "SentenceID": "s301",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t080",
+    "SentenceID": "s302",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t081",
+    "SentenceID": "s303",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t081",
+    "SentenceID": "s304",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t081",
+    "SentenceID": "s305",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t081",
+    "SentenceID": "s306",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t082",
+    "SentenceID": "s307",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t082",
+    "SentenceID": "s308",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t082",
+    "SentenceID": "s309",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t082",
+    "SentenceID": "s310",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t082",
+    "SentenceID": "s311",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t083",
+    "SentenceID": "s312",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t083",
+    "SentenceID": "s313",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t083",
+    "SentenceID": "s314",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t084",
+    "SentenceID": "s315",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t084",
+    "SentenceID": "s316",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t084",
+    "SentenceID": "s317",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t084",
+    "SentenceID": "s318",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t085",
+    "SentenceID": "s319",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t085",
+    "SentenceID": "s320",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t085",
+    "SentenceID": "s321",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t085",
+    "SentenceID": "s322",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t086",
+    "SentenceID": "s323",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t086",
+    "SentenceID": "s324",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t086",
+    "SentenceID": "s325",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t086",
+    "SentenceID": "s326",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t086",
+    "SentenceID": "s327",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t086",
+    "SentenceID": "s328",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t086",
+    "SentenceID": "s329",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t087",
+    "SentenceID": "s330",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t087",
+    "SentenceID": "s331",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t087",
+    "SentenceID": "s332",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t087",
+    "SentenceID": "s333",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t088",
+    "SentenceID": "s334",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t088",
+    "SentenceID": "s335",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t088",
+    "SentenceID": "s336",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t088",
+    "SentenceID": "s337",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t088",
+    "SentenceID": "s338",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t088",
+    "SentenceID": "s339",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t089",
+    "SentenceID": "s340",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t089",
+    "SentenceID": "s341",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t089",
+    "SentenceID": "s342",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t089",
+    "SentenceID": "s343",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t089",
+    "SentenceID": "s344",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t089",
+    "SentenceID": "s345",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t089",
+    "SentenceID": "s346",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t090",
+    "SentenceID": "s347",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t090",
+    "SentenceID": "s348",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t090",
+    "SentenceID": "s349",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t090",
+    "SentenceID": "s350",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t091",
+    "SentenceID": "s351",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t091",
+    "SentenceID": "s352",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t091",
+    "SentenceID": "s353",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t091",
+    "SentenceID": "s354",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t091",
+    "SentenceID": "s355",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t092",
+    "SentenceID": "s356",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t092",
+    "SentenceID": "s357",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t092",
+    "SentenceID": "s358",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t092",
+    "SentenceID": "s359",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t092",
+    "SentenceID": "s360",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t093",
+    "SentenceID": "s361",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t093",
+    "SentenceID": "s362",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t093",
+    "SentenceID": "s363",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t094",
+    "SentenceID": "s364",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t094",
+    "SentenceID": "s365",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t094",
+    "SentenceID": "s366",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t094",
+    "SentenceID": "s367",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t095",
+    "SentenceID": "s368",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t095",
+    "SentenceID": "s369",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t096",
+    "SentenceID": "s370",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t096",
+    "SentenceID": "s371",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t096",
+    "SentenceID": "s372",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t097",
+    "SentenceID": "s373",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t097",
+    "SentenceID": "s374",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t097",
+    "SentenceID": "s375",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t097",
+    "SentenceID": "s376",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t097",
+    "SentenceID": "s377",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t097",
+    "SentenceID": "s378",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t098",
+    "SentenceID": "s379",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t098",
+    "SentenceID": "s380",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t098",
+    "SentenceID": "s381",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t098",
+    "SentenceID": "s382",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t099",
+    "SentenceID": "s383",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t099",
+    "SentenceID": "s384",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t099",
+    "SentenceID": "s385",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t099",
+    "SentenceID": "s386",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t099",
+    "SentenceID": "s387",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t099",
+    "SentenceID": "s388",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t099",
+    "SentenceID": "s389",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t100",
+    "SentenceID": "s390",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t100",
+    "SentenceID": "s391",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t100",
+    "SentenceID": "s392",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t101",
+    "SentenceID": "s393",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t101",
+    "SentenceID": "s394",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t102",
+    "SentenceID": "s395",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t102",
+    "SentenceID": "s396",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t102",
+    "SentenceID": "s397",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t102",
+    "SentenceID": "s398",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t102",
+    "SentenceID": "s399",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t103",
+    "SentenceID": "s400",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t103",
+    "SentenceID": "s401",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t103",
+    "SentenceID": "s402",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t103",
+    "SentenceID": "s403",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t104",
+    "SentenceID": "s404",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t104",
+    "SentenceID": "s405",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t105",
+    "SentenceID": "s406",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t105",
+    "SentenceID": "s407",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t105",
+    "SentenceID": "s408",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t105",
+    "SentenceID": "s409",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t106",
+    "SentenceID": "s410",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t106",
+    "SentenceID": "s411",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t106",
+    "SentenceID": "s412",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t106",
+    "SentenceID": "s413",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t107",
+    "SentenceID": "s414",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t107",
+    "SentenceID": "s415",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t107",
+    "SentenceID": "s416",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t107",
+    "SentenceID": "s417",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t108",
+    "SentenceID": "s418",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t108",
+    "SentenceID": "s419",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t108",
+    "SentenceID": "s420",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t109",
+    "SentenceID": "s421",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t109",
+    "SentenceID": "s422",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t109",
+    "SentenceID": "s423",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t110",
+    "SentenceID": "s424",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t110",
+    "SentenceID": "s425",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t110",
+    "SentenceID": "s426",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t111",
+    "SentenceID": "s427",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t111",
+    "SentenceID": "s428",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t111",
+    "SentenceID": "s429",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t111",
+    "SentenceID": "s430",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t112",
+    "SentenceID": "s431",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t112",
+    "SentenceID": "s432",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t112",
+    "SentenceID": "s433",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t113",
+    "SentenceID": "s434",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t113",
+    "SentenceID": "s435",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t113",
+    "SentenceID": "s436",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t113",
+    "SentenceID": "s437",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t113",
+    "SentenceID": "s438",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t114",
+    "SentenceID": "s439",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t114",
+    "SentenceID": "s440",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t114",
+    "SentenceID": "s441",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t115",
+    "SentenceID": "s442",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t115",
+    "SentenceID": "s443",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t115",
+    "SentenceID": "s444",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t115",
+    "SentenceID": "s445",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t116",
+    "SentenceID": "s446",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t116",
+    "SentenceID": "s447",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t116",
+    "SentenceID": "s448",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t116",
+    "SentenceID": "s449",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t117",
+    "SentenceID": "s450",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t117",
+    "SentenceID": "s451",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t117",
+    "SentenceID": "s452",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t117",
+    "SentenceID": "s453",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t117",
+    "SentenceID": "s454",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t117",
+    "SentenceID": "s455",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t118",
+    "SentenceID": "s456",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t118",
+    "SentenceID": "s457",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t118",
+    "SentenceID": "s458",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t118",
+    "SentenceID": "s459",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t119",
+    "SentenceID": "s460",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t119",
+    "SentenceID": "s461",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t120",
+    "SentenceID": "s462",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t120",
+    "SentenceID": "s463",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t120",
+    "SentenceID": "s464",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t120",
+    "SentenceID": "s465",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t121",
+    "SentenceID": "s466",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t121",
+    "SentenceID": "s467",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t121",
+    "SentenceID": "s468",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t121",
+    "SentenceID": "s469",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t121",
+    "SentenceID": "s470",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t121",
+    "SentenceID": "s471",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t122",
+    "SentenceID": "s472",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t122",
+    "SentenceID": "s473",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t122",
+    "SentenceID": "s474",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t122",
+    "SentenceID": "s475",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t123",
+    "SentenceID": "s476",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t123",
+    "SentenceID": "s477",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t123",
+    "SentenceID": "s478",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t123",
+    "SentenceID": "s479",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t123",
+    "SentenceID": "s480",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t124",
+    "SentenceID": "s481",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t124",
+    "SentenceID": "s482",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t124",
+    "SentenceID": "s483",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t124",
+    "SentenceID": "s484",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t125",
+    "SentenceID": "s485",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t125",
+    "SentenceID": "s486",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t125",
+    "SentenceID": "s487",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t125",
+    "SentenceID": "s488",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t125",
+    "SentenceID": "s489",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t126",
+    "SentenceID": "s490",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t126",
+    "SentenceID": "s491",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t126",
+    "SentenceID": "s492",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t126",
+    "SentenceID": "s493",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t126",
+    "SentenceID": "s494",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t126",
+    "SentenceID": "s495",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t127",
+    "SentenceID": "s496",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t127",
+    "SentenceID": "s497",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t127",
+    "SentenceID": "s498",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t127",
+    "SentenceID": "s499",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t127",
+    "SentenceID": "s500",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t127",
+    "SentenceID": "s501",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t128",
+    "SentenceID": "s502",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t128",
+    "SentenceID": "s503",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t128",
+    "SentenceID": "s504",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t128",
+    "SentenceID": "s505",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t129",
+    "SentenceID": "s506",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t129",
+    "SentenceID": "s507",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t129",
+    "SentenceID": "s508",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t130",
+    "SentenceID": "s509",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t130",
+    "SentenceID": "s510",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t130",
+    "SentenceID": "s511",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t130",
+    "SentenceID": "s512",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t131",
+    "SentenceID": "s513",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t131",
+    "SentenceID": "s514",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t131",
+    "SentenceID": "s515",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t131",
+    "SentenceID": "s516",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t131",
+    "SentenceID": "s517",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t132",
+    "SentenceID": "s518",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t132",
+    "SentenceID": "s519",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t132",
+    "SentenceID": "s520",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t133",
+    "SentenceID": "s521",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t133",
+    "SentenceID": "s522",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t133",
+    "SentenceID": "s523",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t133",
+    "SentenceID": "s524",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t133",
+    "SentenceID": "s525",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t133",
+    "SentenceID": "s526",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t133",
+    "SentenceID": "s527",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t134",
+    "SentenceID": "s528",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t134",
+    "SentenceID": "s529",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t134",
+    "SentenceID": "s530",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t134",
+    "SentenceID": "s531",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t134",
+    "SentenceID": "s532",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t134",
+    "SentenceID": "s533",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t135",
+    "SentenceID": "s534",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t135",
+    "SentenceID": "s535",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t135",
+    "SentenceID": "s536",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t135",
+    "SentenceID": "s537",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t135",
+    "SentenceID": "s538",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t136",
+    "SentenceID": "s539",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t136",
+    "SentenceID": "s540",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t136",
+    "SentenceID": "s541",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t136",
+    "SentenceID": "s542",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t136",
+    "SentenceID": "s543",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t136",
+    "SentenceID": "s544",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t137",
+    "SentenceID": "s545",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t137",
+    "SentenceID": "s546",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t137",
+    "SentenceID": "s547",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t137",
+    "SentenceID": "s548",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t138",
+    "SentenceID": "s549",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t138",
+    "SentenceID": "s550",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t138",
+    "SentenceID": "s551",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t138",
+    "SentenceID": "s552",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t139",
+    "SentenceID": "s553",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t139",
+    "SentenceID": "s554",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t139",
+    "SentenceID": "s555",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t139",
+    "SentenceID": "s556",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t139",
+    "SentenceID": "s557",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t139",
+    "SentenceID": "s558",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t139",
+    "SentenceID": "s559",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t140",
+    "SentenceID": "s560",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t140",
+    "SentenceID": "s561",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t140",
+    "SentenceID": "s562",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t140",
+    "SentenceID": "s563",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t140",
+    "SentenceID": "s564",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t141",
+    "SentenceID": "s565",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t141",
+    "SentenceID": "s566",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t141",
+    "SentenceID": "s567",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t141",
+    "SentenceID": "s568",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t142",
+    "SentenceID": "s569",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t142",
+    "SentenceID": "s570",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t142",
+    "SentenceID": "s571",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t142",
+    "SentenceID": "s572",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t142",
+    "SentenceID": "s573",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t142",
+    "SentenceID": "s574",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t143",
+    "SentenceID": "s575",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t143",
+    "SentenceID": "s576",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t143",
+    "SentenceID": "s577",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t143",
+    "SentenceID": "s578",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t143",
+    "SentenceID": "s579",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t143",
+    "SentenceID": "s580",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t144",
+    "SentenceID": "s581",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t144",
+    "SentenceID": "s582",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t144",
+    "SentenceID": "s583",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t144",
+    "SentenceID": "s584",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t144",
+    "SentenceID": "s585",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t144",
+    "SentenceID": "s586",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t144",
+    "SentenceID": "s587",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t144",
+    "SentenceID": "s588",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t144",
+    "SentenceID": "s589",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t145",
+    "SentenceID": "s590",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t145",
+    "SentenceID": "s591",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t145",
+    "SentenceID": "s592",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t145",
+    "SentenceID": "s593",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t145",
+    "SentenceID": "s594",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t145",
+    "SentenceID": "s595",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t145",
+    "SentenceID": "s596",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t146",
+    "SentenceID": "s597",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t146",
+    "SentenceID": "s598",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t146",
+    "SentenceID": "s599",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t147",
+    "SentenceID": "s600",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t147",
+    "SentenceID": "s601",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t147",
+    "SentenceID": "s602",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t147",
+    "SentenceID": "s603",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t147",
+    "SentenceID": "s604",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t147",
+    "SentenceID": "s605",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t147",
+    "SentenceID": "s606",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t148",
+    "SentenceID": "s607",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t148",
+    "SentenceID": "s608",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t148",
+    "SentenceID": "s609",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t148",
+    "SentenceID": "s610",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t149",
+    "SentenceID": "s611",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t149",
+    "SentenceID": "s612",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t149",
+    "SentenceID": "s613",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t149",
+    "SentenceID": "s614",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t149",
+    "SentenceID": "s615",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t150",
+    "SentenceID": "s616",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t150",
+    "SentenceID": "s617",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t150",
+    "SentenceID": "s618",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t150",
+    "SentenceID": "s619",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t150",
+    "SentenceID": "s620",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t151",
+    "SentenceID": "s621",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t151",
+    "SentenceID": "s622",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t152",
+    "SentenceID": "s623",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t152",
+    "SentenceID": "s624",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t152",
+    "SentenceID": "s625",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t152",
+    "SentenceID": "s626",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t152",
+    "SentenceID": "s627",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t153",
+    "SentenceID": "s628",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t153",
+    "SentenceID": "s629",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t153",
+    "SentenceID": "s630",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t154",
+    "SentenceID": "s631",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t154",
+    "SentenceID": "s632",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t154",
+    "SentenceID": "s633",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t154",
+    "SentenceID": "s634",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t154",
+    "SentenceID": "s635",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t154",
+    "SentenceID": "s636",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t154",
+    "SentenceID": "s637",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t154",
+    "SentenceID": "s638",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t154",
+    "SentenceID": "s639",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t155",
+    "SentenceID": "s640",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t155",
+    "SentenceID": "s641",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t155",
+    "SentenceID": "s642",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t156",
+    "SentenceID": "s643",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t156",
+    "SentenceID": "s644",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t157",
+    "SentenceID": "s645",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t157",
+    "SentenceID": "s646",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t157",
+    "SentenceID": "s647",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t157",
+    "SentenceID": "s648",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t157",
+    "SentenceID": "s649",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t157",
+    "SentenceID": "s650",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t158",
+    "SentenceID": "s651",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t158",
+    "SentenceID": "s652",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t158",
+    "SentenceID": "s653",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t159",
+    "SentenceID": "s654",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t159",
+    "SentenceID": "s655",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t159",
+    "SentenceID": "s656",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t159",
+    "SentenceID": "s657",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t159",
+    "SentenceID": "s658",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t159",
+    "SentenceID": "s659",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t159",
+    "SentenceID": "s660",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t159",
+    "SentenceID": "s661",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t159",
+    "SentenceID": "s662",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t159",
+    "SentenceID": "s663",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t159",
+    "SentenceID": "s664",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t159",
+    "SentenceID": "s665",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t160",
+    "SentenceID": "s666",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t160",
+    "SentenceID": "s667",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t160",
+    "SentenceID": "s668",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t160",
+    "SentenceID": "s669",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t160",
+    "SentenceID": "s670",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t161",
+    "SentenceID": "s671",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t161",
+    "SentenceID": "s672",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t161",
+    "SentenceID": "s673",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t161",
+    "SentenceID": "s674",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t161",
+    "SentenceID": "s675",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t161",
+    "SentenceID": "s676",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t161",
+    "SentenceID": "s677",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t161",
+    "SentenceID": "s678",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t161",
+    "SentenceID": "s679",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t162",
+    "SentenceID": "s680",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t162",
+    "SentenceID": "s681",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t162",
+    "SentenceID": "s682",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t162",
+    "SentenceID": "s683",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t163",
+    "SentenceID": "s684",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t163",
+    "SentenceID": "s685",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t163",
+    "SentenceID": "s686",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t163",
+    "SentenceID": "s687",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t164",
+    "SentenceID": "s688",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t164",
+    "SentenceID": "s689",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t164",
+    "SentenceID": "s690",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t165",
+    "SentenceID": "s691",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t165",
+    "SentenceID": "s692",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t165",
+    "SentenceID": "s693",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t165",
+    "SentenceID": "s694",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t165",
+    "SentenceID": "s695",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t166",
+    "SentenceID": "s696",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t166",
+    "SentenceID": "s697",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t166",
+    "SentenceID": "s698",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t167",
+    "SentenceID": "s699",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t167",
+    "SentenceID": "s700",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t167",
+    "SentenceID": "s701",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t167",
+    "SentenceID": "s702",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t168",
+    "SentenceID": "s703",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t168",
+    "SentenceID": "s704",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t168",
+    "SentenceID": "s705",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t168",
+    "SentenceID": "s706",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t168",
+    "SentenceID": "s707",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t168",
+    "SentenceID": "s708",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t168",
+    "SentenceID": "s709",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t169",
+    "SentenceID": "s710",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t169",
+    "SentenceID": "s711",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t169",
+    "SentenceID": "s712",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t170",
+    "SentenceID": "s713",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t170",
+    "SentenceID": "s714",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t171",
+    "SentenceID": "s715",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t171",
+    "SentenceID": "s716",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t171",
+    "SentenceID": "s717",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t172",
+    "SentenceID": "s718",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t172",
+    "SentenceID": "s719",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t172",
+    "SentenceID": "s720",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t172",
+    "SentenceID": "s721",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t173",
+    "SentenceID": "s722",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t173",
+    "SentenceID": "s723",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t173",
+    "SentenceID": "s724",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t173",
+    "SentenceID": "s725",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t173",
+    "SentenceID": "s726",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t173",
+    "SentenceID": "s727",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t174",
+    "SentenceID": "s728",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t174",
+    "SentenceID": "s729",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t174",
+    "SentenceID": "s730",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t175",
+    "SentenceID": "s731",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t175",
+    "SentenceID": "s732",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t175",
+    "SentenceID": "s733",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t175",
+    "SentenceID": "s734",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t176",
+    "SentenceID": "s735",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t176",
+    "SentenceID": "s736",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t176",
+    "SentenceID": "s737",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t176",
+    "SentenceID": "s738",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t176",
+    "SentenceID": "s739",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t176",
+    "SentenceID": "s740",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t176",
+    "SentenceID": "s741",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t176",
+    "SentenceID": "s742",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t176",
+    "SentenceID": "s743",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t177",
+    "SentenceID": "s744",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t177",
+    "SentenceID": "s745",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t177",
+    "SentenceID": "s746",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t177",
+    "SentenceID": "s747",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t177",
+    "SentenceID": "s748",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t178",
+    "SentenceID": "s749",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t178",
+    "SentenceID": "s750",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t178",
+    "SentenceID": "s751",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t178",
+    "SentenceID": "s752",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t179",
+    "SentenceID": "s753",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t179",
+    "SentenceID": "s754",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t179",
+    "SentenceID": "s755",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t179",
+    "SentenceID": "s756",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t179",
+    "SentenceID": "s757",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t179",
+    "SentenceID": "s758",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t180",
+    "SentenceID": "s759",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t180",
+    "SentenceID": "s760",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t180",
+    "SentenceID": "s761",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t180",
+    "SentenceID": "s762",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t181",
+    "SentenceID": "s763",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t181",
+    "SentenceID": "s764",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t181",
+    "SentenceID": "s765",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t181",
+    "SentenceID": "s766",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t181",
+    "SentenceID": "s767",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t182",
+    "SentenceID": "s768",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t182",
+    "SentenceID": "s769",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t182",
+    "SentenceID": "s770",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t182",
+    "SentenceID": "s771",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t182",
+    "SentenceID": "s772",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t183",
+    "SentenceID": "s773",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t183",
+    "SentenceID": "s774",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t183",
+    "SentenceID": "s775",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t183",
+    "SentenceID": "s776",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t184",
+    "SentenceID": "s777",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t184",
+    "SentenceID": "s778",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t184",
+    "SentenceID": "s779",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t184",
+    "SentenceID": "s780",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t184",
+    "SentenceID": "s781",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t184",
+    "SentenceID": "s782",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t184",
+    "SentenceID": "s783",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t184",
+    "SentenceID": "s784",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t184",
+    "SentenceID": "s785",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t184",
+    "SentenceID": "s786",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t184",
+    "SentenceID": "s787",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s788",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s789",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s790",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s791",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s792",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s793",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s794",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s795",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s796",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s797",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s798",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s799",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s800",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s801",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s802",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s803",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t185",
+    "SentenceID": "s804",
+    "English": "",
+    "Greek": "",
+    "AudioLink": ""
+  },
+  {
+    "StoryID": "t186",
+    "SentenceID": "s805",
+    "English": "Hello.",
+    "Greek": "Hola.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s805.mp3"
+  },
+  {
+    "StoryID": "t186",
+    "SentenceID": "s806",
+    "English": "How are you?",
+    "Greek": "¿Cómo estás?",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s806.mp3"
+  },
+  {
+    "StoryID": "t186",
+    "SentenceID": "s807",
+    "English": "Fine. Thanks!",
+    "Greek": "¡Bien, gracias!",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s807.mp3"
+  },
+  {
+    "StoryID": "t186",
+    "SentenceID": "s808",
+    "English": "Where are you from?",
+    "Greek": "¿De dónde eres?",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s808.mp3"
+  },
+  {
+    "StoryID": "t186",
+    "SentenceID": "s809",
+    "English": "I'm from Missouri.",
+    "Greek": "Soy de Missouri.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s809.mp3"
+  },
+  {
+    "StoryID": "t186",
+    "SentenceID": "s810",
+    "English": "How is your day going?",
+    "Greek": "¿Cómo va tu día?",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s810.mp3"
+  },
+  {
+    "StoryID": "t186",
+    "SentenceID": "s811",
+    "English": "That's strange.",
+    "Greek": "Eso es extraño.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s811.mp3"
+  },
+  {
+    "StoryID": "t186",
+    "SentenceID": "s812",
+    "English": "How much does that cost?",
+    "Greek": "¿Cuanto cuesta eso?",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s812.mp3"
+  },
+  {
+    "StoryID": "t186",
+    "SentenceID": "s813",
+    "English": "Do you have any water?",
+    "Greek": "¿Tienes agua?",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s813.mp3"
+  },
+  {
+    "StoryID": "t186",
+    "SentenceID": "s814",
+    "English": "I'd like something to eat if it's not too much trouble.",
+    "Greek": "Me gustaría comer algo si no es mucha molestia.",
+    "AudioLink": "https://storage.googleapis.com/greek-audio-files-2025/s814.mp3"
+  }
+]

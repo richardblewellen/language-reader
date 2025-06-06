@@ -3,89 +3,330 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Greek Sentences Viewer</title>
+  <title>Greek Reader</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 1em;
-      background: #f9f9f9;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
     }
-    .sentence {
-      border-bottom: 1px solid #ddd;
-      padding: 1em 0;
+    header, #controls, #sentences {
+      max-width: 800px;
+      margin: 1rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+    }
+    #storySelect {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .sentence-group {
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
+      gap: 1rem;
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      background: #fafafa;
     }
-    .greek {
-      font-size: 1.2em;
-      color: #2a2a2a;
-      flex: 2;
-      margin-right: 1em;
+    .text-column {
+      flex: 1 1 45%;
     }
-    .english {
-      flex: 3;
-      color: #555;
-    }
-    button.play {
-      margin-left: auto;
-      padding: 0.4em 1em;
-      font-size: 1em;
+    .greek-button {
+      display: block;
+      width: 100%;
+      padding: 0.75rem;
+      background: transparent;
+      border: none;
+      border-radius: 5px;
+      font-family: Arial, sans-serif;
+      font-size: 1.1rem;
+      line-height: 1.6;
       cursor: pointer;
+      text-align: left;
+    }
+    .greek-button.playing {
+      background: #ffeb3b;
+      box-shadow: 0 0 5px 2px #fbc02d;
+    }
+    .english-text {
+      padding: 0.5rem;
+      background: transparent;
+      border-radius: 4px;
+      font-family: Arial, sans-serif;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .control-button {
+      padding: 0.5rem 1rem;
+      margin: 0.25rem;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .control-button:hover {
+      background: #2980b9;
+    }
+    .hidden {
+      display: none;
+    }
+    @media (max-width: 600px) {
+      .text-column {
+        flex: 1 1 100%;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Greek Sentences</h1>
-  <div id="content">Loading sentences...</div>
-
+  <header>
+    <h1>Ancient Greek Reader</h1>
+  </header>
+  <section id="controls">
+    <select id="storySelect"></select>
+    <div>
+      <button id="toggleDisplayModeBtn" class="control-button">Display Mode: Both</button>
+      <button id="playAllBtn" class="control-button">Play All</button>
+      <button id="stopPlaybackBtn" class="control-button">Stop Playback</button>
+    </div>
+  </section>
+  <section id="sentences"></section>
   <script>
-    async function loadData() {
+    const JSON_FEED_URL = 'https://script.google.com/macros/s/AKfycbykLd0c2O5gy7PFYstWMLQrbDaQT2pGaRuw5Yz9m8vBNrUTkXFBfRwSGM__UmqpAMe3/exec'; // <-- Replace with your published JSON feed URL
+
+    let allStories = [];  // All stories fetched from JSON
+    let currentSentences = [];
+    let currentAudio = null;
+    let isSequencePlaying = false;
+    let displayMode = 'both';
+
+    const storySelect = document.getElementById('storySelect');
+    const sentencesDiv = document.getElementById('sentences');
+    const toggleBtn = document.getElementById('toggleDisplayModeBtn');
+
+    // Fetch all stories and their sentences from JSON feed
+    async function loadStories() {
       try {
-        const response = await fetch('https://script.google.com/macros/s/AKfycbykLd0c2O5gy7PFYstWMLQrbDaQT2pGaRuw5Yz9m8vBNrUTkXFBfRwSGM__UmqpAMe3/exec');
-        if (!response.ok) throw new Error("Network response was not ok");
-        const data = await response.json();
+        const res = await fetch(JSON_FEED_URL);
+        if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+        const data = await res.json();
 
-        const container = document.getElementById('content');
-        container.innerHTML = ''; // clear loading text
+        // Expect data to be an array of objects with at least: storyId, sentenceId, english, greek, audioLink
+        // We'll group by storyId to build story list and sentences per story.
 
-        data.forEach((item, i) => {
-          const sentenceDiv = document.createElement('div');
-          sentenceDiv.className = 'sentence';
-
-          // Greek text
-          const greekSpan = document.createElement('span');
-          greekSpan.className = 'greek';
-          greekSpan.textContent = item.Greek || '[No Greek text]';
-          sentenceDiv.appendChild(greekSpan);
-
-          // English text
-          const englishSpan = document.createElement('span');
-          englishSpan.className = 'english';
-          englishSpan.textContent = item.English || '[No English text]';
-          sentenceDiv.appendChild(englishSpan);
-
-          // Play button if audio link exists
-          if (item.AudioLink) {
-            const playButton = document.createElement('button');
-            playButton.className = 'play';
-            playButton.textContent = '▶️ Play';
-            playButton.onclick = () => {
-              const audio = new Audio(item.AudioLink);
-              audio.play();
-            };
-            sentenceDiv.appendChild(playButton);
-          }
-
-          container.appendChild(sentenceDiv);
+        // Group sentences by storyId
+        const storiesMap = new Map();
+        data.forEach(item => {
+          if (!storiesMap.has(item.storyId)) storiesMap.set(item.storyId, []);
+          storiesMap.get(item.storyId).push(item);
         });
+
+        // Create array of { id, name, sentences }
+        allStories = Array.from(storiesMap.entries()).map(([id, sentences]) => {
+          // Use storyId as name if no better name available
+          return {
+            id,
+            name: id,  // You can adjust if your JSON has a story name field
+            sentences: sentences.sort((a, b) => a.sentenceId.localeCompare(b.sentenceId))
+          };
+        });
+
+        // Populate story selector
+        storySelect.innerHTML = '<option value="">-- Select a Story --</option>' +
+          allStories.map(story => `<option value="${story.id}">${story.id}</option>`).join('');
       } catch (error) {
-        document.getElementById('content').textContent = 'Error loading data: ' + error.message;
-        console.error(error);
+        sentencesDiv.innerHTML = `<p style="color:red;">Error loading stories: ${error.message || error}</p>`;
+        console.error('Error loading JSON feed:', error);
       }
     }
 
-    window.onload = loadData;
+    // When a story is selected, show sentences
+    storySelect.addEventListener('change', () => {
+      const selected = storySelect.value;
+      if (!selected) {
+        currentSentences = [];
+        renderSentences();
+        return;
+      }
+      const story = allStories.find(s => s.id === selected);
+      if (story) {
+        currentSentences = story.sentences;
+        renderSentences();
+      } else {
+        sentencesDiv.innerHTML = `<p style="color:red;">Selected story not found.</p>`;
+      }
+    });
+
+    // Render sentences with buttons and English text
+    function renderSentences() {
+      sentencesDiv.innerHTML = currentSentences.map((s, i) => `
+        <div class="sentence-group">
+          <div class="text-column greek-column">
+            <button class="greek-button" data-index="${i}" data-audio="${s.audioLink}">${s.greek}</button>
+          </div>
+          <div class="text-column english-column">
+            <div class="english-text">${s.english}</div>
+          </div>
+        </div>
+      `).join('');
+
+      // Add event listeners for Greek buttons (single and double click)
+      document.querySelectorAll('.greek-button').forEach(btn => {
+        let clickTimeout;
+        btn.addEventListener('click', (e) => {
+          if (clickTimeout) {
+            clearTimeout(clickTimeout);
+            clickTimeout = null;
+            return; // double click: ignore single click logic
+          }
+          clickTimeout = setTimeout(() => {
+            const audio = e.target.dataset.audio;
+            const idx = e.target.dataset.index;
+            playAudio(audio, idx, true);
+            clickTimeout = null;
+          }, 250);
+        });
+        btn.addEventListener('dblclick', (e) => {
+          clearTimeout(clickTimeout);
+          clickTimeout = null;
+          const audio = e.target.dataset.audio;
+          const idx = e.target.dataset.index;
+          playAudioMultiple(audio, idx, 5);
+        });
+      });
+
+      // Apply display mode settings
+      updateDisplayMode();
+    }
+
+    // Play a single audio file
+    function playAudio(url, index, shouldStopPreviousAudio = false) {
+      if (shouldStopPreviousAudio) stopAudio();
+
+      if (!url) {
+        alert("Audio URL not available.");
+        return;
+      }
+
+      const audio = new Audio(url);
+      currentAudio = audio;
+      highlight(index);
+
+      audio.play().catch(e => {
+        console.error("Error playing audio:", e);
+        if (e.name !== "AbortError" && e.name !== "NotAllowedError") {
+          alert(`Could not play audio: ${e.message || e}`);
+        }
+        stopAudio();
+      });
+
+      audio.addEventListener('ended', () => {
+        if (currentAudio === audio) {
+          unhighlight(index);
+          currentAudio = null;
+        }
+      });
+
+      audio.addEventListener('pause', () => {
+        if (currentAudio === audio) {
+          unhighlight(index);
+          currentAudio = null;
+        }
+      });
+    }
+
+    // Play audio multiple times
+    async function playAudioMultiple(url, index, times) {
+      stopAudio();
+      isSequencePlaying = true;
+      for (let i = 0; i < times && isSequencePlaying; i++) {
+        await new Promise((resolve, reject) => {
+          const audio = new Audio(url);
+          currentAudio = audio;
+          highlight(index);
+          audio.play().catch(e => reject(e));
+          audio.onended = () => resolve();
+          audio.onpause = () => resolve();
+        });
+        if (isSequencePlaying && i < times - 1) await new Promise(r => setTimeout(r, 150));
+      }
+      stopAudio();
+    }
+
+    // Stop audio playback
+    function stopAudio() {
+      if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+        currentAudio = null;
+      }
+      isSequencePlaying = false;
+      document.querySelectorAll('.greek-button').forEach(b => b.classList.remove('playing'));
+    }
+
+    // Highlight current button
+    function highlight(index) {
+      document.querySelectorAll('.greek-button').forEach(b => b.classList.remove('playing'));
+      const btn = document.querySelector(`.greek-button[data-index="${index}"]`);
+      if (btn) btn.classList.add('playing');
+    }
+
+    // Unhighlight button
+    function unhighlight(index) {
+      const btn = document.querySelector(`.greek-button[data-index="${index}"]`);
+      if (btn) btn.classList.remove('playing');
+    }
+
+    // Stop Playback button event
+    document.getElementById('stopPlaybackBtn').addEventListener('click', stopAudio);
+
+    // Play All button event
+    document.getElementById('playAllBtn').addEventListener('click', async () => {
+      if (currentSentences.length === 0) return;
+      stopAudio();
+      isSequencePlaying = true;
+      for (let i = 0; i < currentSentences.length && isSequencePlaying; i++) {
+        await new Promise((resolve, reject) => {
+          const audio = new Audio(currentSentences[i].audioLink);
+          currentAudio = audio;
+          highlight(i);
+          audio.play().catch(e => reject(e));
+          audio.onended = () => resolve();
+          audio.onpause = () => resolve();
+        });
+        if (isSequencePlaying && i < currentSentences.length - 1) await new Promise(r => setTimeout(r, 200));
+      }
+      stopAudio();
+    });
+
+    // Toggle display mode button event
+    toggleBtn.addEventListener('click', () => {
+      if (displayMode === 'both') displayMode = 'greekOnly';
+      else if (displayMode === 'greekOnly') displayMode = 'englishOnly';
+      else displayMode = 'both';
+
+      updateDisplayMode();
+    });
+
+    // Update display mode on page
+    function updateDisplayMode() {
+      toggleBtn.textContent = `Display Mode: ${displayMode === 'both' ? 'Both' : displayMode === 'greekOnly' ? 'Greek Only' : 'English Only'}`;
+      document.querySelectorAll('.english-column').forEach(el => el.classList.toggle('hidden', displayMode === 'greekOnly'));
+      document.querySelectorAll('.greek-column').forEach(el => el.classList.toggle('hidden', displayMode === 'englishOnly'));
+    }
+
+    // Initial load
+    loadStories();
   </script>
 </body>
 </html>

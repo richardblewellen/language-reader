@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Greek Reader</title>
   <style>
+    /* Your existing CSS remains the same */
     body {
       font-family: sans-serif;
       margin: 0;
@@ -101,232 +102,296 @@
     </div>
   </section>
   <section id="sentences"></section>
-  <script>
-    const JSON_FEED_URL = 'https://script.google.com/macros/s/AKfycbykLd0c2O5gy7PFYstWMLQrbDaQT2pGaRuw5Yz9m8vBNrUTkXFBfRwSGM__UmqpAMe3/exec'; // <-- Replace with your published JSON feed URL
 
-    let allStories = [];  // All stories fetched from JSON
-    let currentSentences = [];
+  <script>
+    // --- Global Variables (updated for static data) ---
+    let allStories = [];    // Will store all stories from stories.json
+    let allSentences = [];  // Will store all sentences from sentences.json
+    let currentStorySentences = []; // Sentences for the currently selected story
+
     let currentAudio = null;
     let isSequencePlaying = false;
     let displayMode = 'both';
 
+    // --- DOM Elements ---
     const storySelect = document.getElementById('storySelect');
     const sentencesDiv = document.getElementById('sentences');
     const toggleBtn = document.getElementById('toggleDisplayModeBtn');
+    const playAllBtn = document.getElementById('playAllBtn');
+    const stopPlaybackBtn = document.getElementById('stopPlaybackBtn');
 
-    // Fetch all stories and their sentences from JSON feed
-    async function loadStories() {
+    // --- Data Fetching (Replaces google.script.run) ---
+    async function fetchAllData() {
       try {
-        const res = await fetch(JSON_FEED_URL);
-        if (!res.ok) throw new Error(`HTTP error ${res.status}`);
-        const data = await res.json();
+        const [storiesResponse, sentencesResponse] = await Promise.all([
+          fetch('stories.json'),    // Path to your stories JSON file
+          fetch('sentences.json')   // Path to your sentences JSON file
+        ]);
 
-        // Expect data to be an array of objects with at least: storyId, sentenceId, english, greek, audioLink
-        // We'll group by storyId to build story list and sentences per story.
+        allStories = await storiesResponse.json();
+        allSentences = await sentencesResponse.json();
 
-        // Group sentences by storyId
-        const storiesMap = new Map();
-        data.forEach(item => {
-          if (!storiesMap.has(item.storyId)) storiesMap.set(item.storyId, []);
-          storiesMap.get(item.storyId).push(item);
-        });
+        populateStoryDropdown();
 
-        // Create array of { id, name, sentences }
-        allStories = Array.from(storiesMap.entries()).map(([id, sentences]) => {
-          // Use storyId as name if no better name available
-          return {
-            id,
-            name: id,  // You can adjust if your JSON has a story name field
-            sentences: sentences.sort((a, b) => a.sentenceId.localeCompare(b.sentenceId))
-          };
-        });
+        // Automatically select and load the first story if available
+        if (allStories.length > 0) {
+          // You might want to store the selected story ID in localStorage
+          // so it persists across sessions, or just select the first one.
+          storySelect.value = allStories[0].StoryID; // Assuming StoryID is the value
+          filterAndRenderSentences(allStories[0].StoryID);
+        } else {
+          sentencesDiv.innerHTML = '<p>No stories found. Please upload stories.json and sentences.json.</p>';
+        }
 
-        // Populate story selector
-        storySelect.innerHTML = '<option value="">-- Select a Story --</option>' +
-          allStories.map(story => `<option value="${story.id}">${story.id}</option>`).join('');
       } catch (error) {
-        sentencesDiv.innerHTML = `<p style="color:red;">Error loading stories: ${error.message || error}</p>`;
-        console.error('Error loading JSON feed:', error);
+        console.error("Error fetching data:", error);
+        sentencesDiv.innerHTML = `<p style="color:red;">Error loading content: ${error.message || error}. Please ensure 'stories.json' and 'sentences.json' are in the correct location.</p>`;
       }
     }
 
-    // When a story is selected, show sentences
+    // --- UI Population and Event Listeners ---
+    function populateStoryDropdown() {
+      // Sort stories by name for a better user experience
+      allStories.sort((a, b) => a.StoryName.localeCompare(b.StoryName));
+
+      storySelect.innerHTML = '<option value="">-- Select a Story --</option>' +
+        allStories.map(story => `<option value="${story.StoryID}">${story.StoryID} - ${story.StoryName}</option>`).join('');
+    }
+
     storySelect.addEventListener('change', () => {
-      const selected = storySelect.value;
-      if (!selected) {
-        currentSentences = [];
-        renderSentences();
-        return;
-      }
-      const story = allStories.find(s => s.id === selected);
-      if (story) {
-        currentSentences = story.sentences;
-        renderSentences();
+      const selectedStoryId = storySelect.value;
+      if (selectedStoryId) {
+        filterAndRenderSentences(selectedStoryId);
       } else {
-        sentencesDiv.innerHTML = `<p style="color:red;">Selected story not found.</p>`;
+        currentStorySentences = [];
+        renderSentences(); // Clear sentences if no story is selected
       }
     });
 
-    // Render sentences with buttons and English text
-    function renderSentences() {
-      sentencesDiv.innerHTML = currentSentences.map((s, i) => `
-        <div class="sentence-group">
-          <div class="text-column greek-column">
-            <button class="greek-button" data-index="${i}" data-audio="${s.audioLink}">${s.greek}</button>
-          </div>
-          <div class="text-column english-column">
-            <div class="english-text">${s.english}</div>
-          </div>
-        </div>
-      `).join('');
+    // --- Sentence Filtering and Rendering (Replaces getStorySentences logic) ---
+    function filterAndRenderSentences(storyId) {
+      // Filter sentences based on the selected StoryID
+      currentStorySentences = allSentences.filter(s => s.StoryID === storyId);
+      renderSentences(); // Now render the filtered sentences
+    }
 
-      // Add event listeners for Greek buttons (single and double click)
+    // Renders the sentences into the display area
+    function renderSentences() {
+      sentencesDiv.innerHTML = ''; // Clear existing content
+      if (currentStorySentences.length === 0) {
+        sentencesDiv.innerHTML = '<p>No sentences found for this story.</p>';
+        return;
+      }
+
+      currentStorySentences.forEach((s, i) => {
+        const sentenceGroup = document.createElement('div');
+        sentenceGroup.classList.add('sentence-group');
+        // Add a data attribute to easily find this group later (e.g., for highlighting)
+        sentenceGroup.setAttribute('data-sentence-id', s.SentenceID);
+
+        // Greek Column
+        const greekColumn = document.createElement('div');
+        greekColumn.classList.add('text-column', 'greek-column');
+        const greekButton = document.createElement('button');
+        greekButton.classList.add('greek-button');
+        greekButton.setAttribute('data-index', i); // Index within currentStorySentences
+        greekButton.setAttribute('data-audio', s.AudioLink); // Use AudioLink (capital A, matches your JSON export)
+        greekButton.textContent = s.Greek; // Use Greek (capital G)
+        greekColumn.appendChild(greekButton);
+        sentenceGroup.appendChild(greekColumn);
+
+        // English Column
+        const englishColumn = document.createElement('div');
+        englishColumn.classList.add('text-column', 'english-column');
+        const englishText = document.createElement('div');
+        englishText.classList.add('english-text');
+        englishText.textContent = s.English; // Use English (capital E)
+        englishColumn.appendChild(englishText);
+        sentenceGroup.appendChild(englishColumn);
+
+        sentencesDiv.appendChild(sentenceGroup);
+      });
+
+      // Apply initial display mode after rendering
+      applyDisplayMode();
+
+      // Add event listeners for single and double clicks on Greek buttons
       document.querySelectorAll('.greek-button').forEach(btn => {
         let clickTimeout;
         btn.addEventListener('click', (e) => {
           if (clickTimeout) {
             clearTimeout(clickTimeout);
             clickTimeout = null;
-            return; // double click: ignore single click logic
+            return; // This is a double click, ignore single click logic
           }
           clickTimeout = setTimeout(() => {
             const audio = e.target.dataset.audio;
-            const idx = e.target.dataset.index;
-            playAudio(audio, idx, true);
+            const idx = parseInt(e.target.dataset.index); // Parse to integer
+            playAudio(audio, idx, true); // Play audio on single click
             clickTimeout = null;
-          }, 250);
+          }, 250); // Adjust delay if needed
         });
         btn.addEventListener('dblclick', (e) => {
-          clearTimeout(clickTimeout);
+          clearTimeout(clickTimeout); // Clear any pending single click
           clickTimeout = null;
           const audio = e.target.dataset.audio;
-          const idx = e.target.dataset.index;
-          playAudioMultiple(audio, idx, 5);
+          const idx = parseInt(e.target.dataset.index); // Parse to integer
+          playAudioMultiple(audio, idx, 5); // Play audio multiple times on double click
         });
       });
-
-      // Apply display mode settings
-      updateDisplayMode();
     }
 
-    // Play a single audio file
+    // --- Audio Playback Functions (largely unchanged, but good to review) ---
     function playAudio(url, index, shouldStopPreviousAudio = false) {
-      if (shouldStopPreviousAudio) stopAudio();
-
-      if (!url) {
-        alert("Audio URL not available.");
-        return;
+      if (shouldStopPreviousAudio) {
+        stopAudio(); // Stop any currently playing audio
       }
 
       const audio = new Audio(url);
-      currentAudio = audio;
-      highlight(index);
+      currentAudio = audio; // Keep track of the currently playing audio object
+      highlight(index); // Highlight the corresponding button
 
       audio.play().catch(e => {
         console.error("Error playing audio:", e);
+        // Avoid "AbortError" (user interaction) and "NotAllowedError" (autoplay policy)
         if (e.name !== "AbortError" && e.name !== "NotAllowedError") {
-          alert(`Could not play audio: ${e.message || e}`);
+            alert(`Could not play audio: ${e.message || e}. Please check the console for more details.`);
         }
-        stopAudio();
+        stopAudio(); // Ensure cleanup if playback fails
       });
 
+      // Event listener for when audio finishes playing
       audio.addEventListener('ended', () => {
-        if (currentAudio === audio) {
-          unhighlight(index);
-          currentAudio = null;
+        if (currentAudio === audio) { // Only unhighlight if this is the currently managed audio
+            unhighlight(index);
+            currentAudio = null;
         }
       });
-
+      // Event listener for when audio is paused manually
       audio.addEventListener('pause', () => {
-        if (currentAudio === audio) {
-          unhighlight(index);
-          currentAudio = null;
+        if (currentAudio === audio) { // Only unhighlight if this is the currently managed audio
+            unhighlight(index);
+            currentAudio = null;
         }
       });
     }
 
-    // Play audio multiple times
+    // Plays an audio file multiple times with a short delay
     async function playAudioMultiple(url, index, times) {
-      stopAudio();
-      isSequencePlaying = true;
+      stopAudio(); // Stop any current audio
+      isSequencePlaying = true; // Flag for sequence playback control
       for (let i = 0; i < times && isSequencePlaying; i++) {
         await new Promise((resolve, reject) => {
           const audio = new Audio(url);
           currentAudio = audio;
           highlight(index);
-          audio.play().catch(e => reject(e));
-          audio.onended = () => resolve();
-          audio.onpause = () => resolve();
+          audio.play().catch(e => {
+            console.error("Error in playAudioMultiple repetition:", e);
+            reject(e); // Reject if play() itself fails (e.g., file not found, bad URL)
+          });
+          audio.onended = () => {
+            resolve(); // Audio finished playing naturally, resolve the promise
+          };
+          audio.onpause = () => {
+            console.warn("Audio paused during repetition (index:", index, ", iteration:", i, "). Continuing.");
+            resolve(); // Resolve to allow the loop to proceed
+          };
         });
-        if (isSequencePlaying && i < times - 1) await new Promise(r => setTimeout(r, 150));
+        if (isSequencePlaying && i < times - 1) { // If still playing and not last repetition
+          await new Promise(r => setTimeout(r, 150)); // Short pause between plays
+        }
       }
-      stopAudio();
+      stopAudio(); // Cleanup after sequence
     }
 
-    // Stop audio playback
+    // Stops any currently playing audio and resets state
     function stopAudio() {
       if (currentAudio) {
         currentAudio.pause();
-        currentAudio.currentTime = 0;
+        currentAudio.currentTime = 0; // Reset playback to start
         currentAudio = null;
       }
-      isSequencePlaying = false;
+      isSequencePlaying = false; // Reset sequence flag
+      // Remove highlight from all buttons
       document.querySelectorAll('.greek-button').forEach(b => b.classList.remove('playing'));
+      document.querySelectorAll('.sentence-group').forEach(group => group.classList.remove('highlight')); // Remove group highlight
     }
 
-    // Highlight current button
+    // Adds 'playing' class to highlight the active button and parent group
     function highlight(index) {
+      // Remove all existing highlights first
       document.querySelectorAll('.greek-button').forEach(b => b.classList.remove('playing'));
+      document.querySelectorAll('.sentence-group').forEach(group => group.classList.remove('highlight'));
+
       const btn = document.querySelector(`.greek-button[data-index="${index}"]`);
-      if (btn) btn.classList.add('playing');
+      if (btn) {
+        btn.classList.add('playing');
+        // Also highlight the parent sentence-group
+        const parentGroup = btn.closest('.sentence-group');
+        if (parentGroup) {
+            parentGroup.classList.add('highlight');
+            parentGroup.scrollIntoView({ behavior: 'smooth', block: 'center' }); // Scroll into view
+        }
+      }
     }
 
-    // Unhighlight button
+    // Removes 'playing' class to unhighlight the button and parent group
     function unhighlight(index) {
       const btn = document.querySelector(`.greek-button[data-index="${index}"]`);
-      if (btn) btn.classList.remove('playing');
+      if (btn) {
+        btn.classList.remove('playing');
+        const parentGroup = btn.closest('.sentence-group');
+        if (parentGroup) {
+            parentGroup.classList.remove('highlight');
+        }
+      }
     }
 
-    // Stop Playback button event
-    document.getElementById('stopPlaybackBtn').addEventListener('click', stopAudio);
+    // --- Control Button Event Listeners ---
+    stopPlaybackBtn.addEventListener('click', stopAudio);
 
-    // Play All button event
-    document.getElementById('playAllBtn').addEventListener('click', async () => {
+    playAllBtn.addEventListener('click', async () => {
       if (currentSentences.length === 0) return;
-      stopAudio();
-      isSequencePlaying = true;
+      stopAudio(); // Stop any current audio
+      isSequencePlaying = true; // Set flag for sequence playback
       for (let i = 0; i < currentSentences.length && isSequencePlaying; i++) {
         await new Promise((resolve, reject) => {
-          const audio = new Audio(currentSentences[i].audioLink);
+          const audio = new Audio(currentSentences[i].AudioLink); // Use AudioLink (capital A)
           currentAudio = audio;
-          highlight(i);
-          audio.play().catch(e => reject(e));
-          audio.onended = () => resolve();
-          audio.onpause = () => resolve();
+          highlight(i); // Highlight the current sentence
+          audio.play().catch(e => {
+            console.error("Error in playAllBtn sequence:", e);
+            reject(e);
+          });
+          audio.onended = () => {
+            resolve();
+          };
+          audio.onpause = () => {
+            console.warn("Audio paused during 'Play All' sequence (index:", i, "). Continuing.");
+            resolve();
+          };
         });
-        if (isSequencePlaying && i < currentSentences.length - 1) await new Promise(r => setTimeout(r, 200));
+        if (isSequencePlaying && i < currentSentences.length - 1) {
+          await new Promise(r => setTimeout(r, 200)); // Short pause between sentences
+        }
       }
-      stopAudio();
+      stopAudio(); // Cleanup after sequence completes
     });
 
-    // Toggle display mode button event
+    // --- Display Mode Logic ---
     toggleBtn.addEventListener('click', () => {
-      if (displayMode === 'both') displayMode = 'greekOnly';
-      else if (displayMode === 'greekOnly') displayMode = 'englishOnly';
-      else displayMode = 'both';
-
-      updateDisplayMode();
+      displayMode = displayMode === 'both' ? 'greekOnly' : displayMode === 'greekOnly' ? 'englishOnly' : 'both';
+      toggleBtn.textContent = `Display Mode: ${displayMode === 'both' ? 'Both' : displayMode === 'greekOnly' ? 'Greek Only' : 'English Only'}`;
+      applyDisplayMode();
     });
 
-    // Update display mode on page
-    function updateDisplayMode() {
-      toggleBtn.textContent = `Display Mode: ${displayMode === 'both' ? 'Both' : displayMode === 'greekOnly' ? 'Greek Only' : 'English Only'}`;
+    function applyDisplayMode() {
       document.querySelectorAll('.english-column').forEach(el => el.classList.toggle('hidden', displayMode === 'greekOnly'));
       document.querySelectorAll('.greek-column').forEach(el => el.classList.toggle('hidden', displayMode === 'englishOnly'));
     }
 
-    // Initial load
-    loadStories();
+    // --- Initial Data Load on Page Load ---
+    document.addEventListener('DOMContentLoaded', fetchAllData);
   </script>
 </body>
 </html>

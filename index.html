@@ -151,9 +151,6 @@
 
     // --- UI Population and Event Listeners ---
     function populateStoryDropdown() {
-      // Sort stories by name for a better user experience
-      allStories.sort((a, b) => a.StoryName.localeCompare(b.StoryName));
-
       storySelect.innerHTML = '<option value="">-- Select a Story --</option>' +
         allStories.map(story => `<option value="${story.StoryID}">${story.StoryID} - ${story.StoryName}</option>`).join('');
     }
@@ -169,7 +166,7 @@
     });
 
     // --- Sentence Filtering and Rendering (Replaces getStorySentences logic) ---
-    function filterAndRenderSentences(storyId) {
+    function filterAndRenderSentences(StoryId) {
       // Filter sentences based on the selected StoryID
       currentStorySentences = allSentences.filter(s => s.StoryID === storyId);
       renderSentences(); // Now render the filtered sentences

@@ -133,15 +133,25 @@
 
         populateStoryDropdown();
 
-        // Automatically select and load the first story if available
-        if (allStories.length > 0) {
-          // You might want to store the selected story ID in localStorage
-          // so it persists across sessions, or just select the first one.
-          storySelect.value = allStories[0].StoryID; // Assuming StoryID is the value
-          filterAndRenderSentences(allStories[0].StoryID);
-        } else {
-          sentencesDiv.innerHTML = '<p>No stories found. Please upload stories.json and sentences.json.</p>';
-        }
+       // Instead of auto-selecting the first story,
+        // set the dropdown to its initial empty value and display instructions.
+        storySelect.value = ""; // Set to the value of your "-- Select a Story --" option
+
+        // Display welcome message and instructions in the sentences container
+        sentencesDiv.innerHTML = `
+            <div style="padding: 20px; text-align: center;">
+                <h2>Welcome to the Language Reader!</h2>
+                <p>Please select a story from the dropdown menu above to begin.</p>
+                <p>
+                    <strong>Instructions:</strong><br>
+                    Click the target language (Greek text) to hear it read once.<br>
+                    Double-click the target language (Greek text) to hear it five times in a row.
+                </p>
+            </div>
+        `;
+
+        // Clear any previous current sentences state
+        currentStorySentences = [];
 
       } catch (error) {
         console.error("Error fetching data:", error);

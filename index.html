@@ -151,6 +151,18 @@
 
     // --- UI Population and Event Listeners ---
     function populateStoryDropdown() {
+      
+      if (allStories && allStories.length > 0) {
+        allStories.sort((a, b) => {
+            const idA = a.StoryID || ''; // Defensive for missing StoryID
+            const idB = b.StoryID || ''; // Defensive for missing StoryID
+            // Use localeCompare with numeric: true for natural sorting (e.g., S1, S2, S10)
+            return idA.localeCompare(idB, undefined, { numeric: true, sensitivity: 'base' });
+        });
+      } else {
+          console.warn("Skipping story sort: allStories is empty, null, or missing expected properties.");
+      }
+      
       storySelect.innerHTML = '<option value="">-- Select a Story --</option>' +
         allStories.map(story => `<option value="${story.StoryID}">${story.StoryID} - ${story.StoryName}</option>`).join('');
     }

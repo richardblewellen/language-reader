@@ -178,7 +178,7 @@
     });
 
     // --- Sentence Filtering and Rendering (Replaces getStorySentences logic) ---
-    function filterAndRenderSentences(StoryId) {
+    function filterAndRenderSentences(storyId) {
       // Filter sentences based on the selected StoryID
       currentStorySentences = allSentences.filter(s => s.StoryID === storyId);
       renderSentences(); // Now render the filtered sentences

@@ -151,7 +151,7 @@
 
     // --- UI Population and Event Listeners ---
     function populateStoryDropdown() {
-      
+
       if (allStories && allStories.length > 0) {
         allStories.sort((a, b) => {
             const idA = a.StoryID || ''; // Defensive for missing StoryID
@@ -160,11 +160,18 @@
             return idA.localeCompare(idB, undefined, { numeric: true, sensitivity: 'base' });
         });
       } else {
-          console.warn("Skipping story sort: allStories is empty, null, or missing expected properties.");
+            console.warn("Skipping story sort: allStories is empty, null, or missing expected properties.");
       }
-      
+
+      // --- CHANGE START ---
+      // This line needs to be updated to defensively access story.StoryID and story.StoryName
       storySelect.innerHTML = '<option value="">-- Select a Story --</option>' +
-        allStories.map(story => `<option value="${story.StoryID}">${story.StoryID} - ${story.StoryName}</option>`).join('');
+        allStories.map(story => {
+            const id = story.StoryID || '';        // Ensure ID is safe
+            const name = story.StoryName || 'Unnamed Story'; // Ensure Name is safe
+            return `<option value="${id}">${id} - ${name}</option>`;
+        }).join('');
+      // --- CHANGE END ---
     }
 
     storySelect.addEventListener('change', () => {
@@ -180,8 +187,23 @@
     // --- Sentence Filtering and Rendering (Replaces getStorySentences logic) ---
     function filterAndRenderSentences(storyId) {
       // Filter sentences based on the selected StoryID
-      currentStorySentences = allSentences.filter(s => s.StoryID === storyId);
-      renderSentences(); // Now render the filtered sentences
+      let filtered = allSentences.filter(s => {
+          // Defensive check: ensure s and s.StoryID exist before comparing
+          return s && s.StoryID !== undefined && String(s.StoryID) === String(storyId);
+      });
+
+      // --- ADD THIS SECTION FOR SENTENCE SORTING ---
+      // Sort the filtered sentences by SentenceID for the correct order within a story
+      filtered.sort((a, b) => {
+          const idA = a.SentenceID || ''; // Defensive for missing SentenceID
+          const idB = b.SentenceID || ''; // Defensive for missing SentenceID
+          // Use localeCompare with numeric: true for natural sorting (e.g., S1-1, S1-2, S1-10)
+          return idA.localeCompare(idB, undefined, { numeric: true, sensitivity: 'base' });
+      });
+      // --- END OF SENTENCE SORTING ADDITION ---
+
+      currentStorySentences = filtered; // Assign the sorted array
+      renderSentences(); // Now render the filtered and sorted sentences
     }
 
     // Renders the sentences into the display area
@@ -197,6 +219,7 @@
         sentenceGroup.classList.add('sentence-group');
         // Add a data attribute to easily find this group later (e.g., for highlighting)
         sentenceGroup.setAttribute('data-sentence-id', s.SentenceID);
+        // ... (rest of your renderSentences function remains the same) ...
 
         // Greek Column
         const greekColumn = document.createElement('div');
